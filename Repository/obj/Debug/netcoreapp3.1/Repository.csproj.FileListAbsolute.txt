@@ -1,0 +1,32 @@
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache

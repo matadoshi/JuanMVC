@@ -1,0 +1,30 @@
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Onur\OneDrive\Masaüstü\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.pdb

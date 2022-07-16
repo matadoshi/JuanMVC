@@ -1,0 +1,26 @@
+﻿@model ProductCategory
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Brand</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input class="form-control" asp-for="Name">
+                <span class="text text-danger" asp-validation-for="Name"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="btn btn-primary">Go Back</a>
+        </form>
+    </div>
+</div>
+
+@section Script{
+    <partial name="_ValidationPartial">
+}

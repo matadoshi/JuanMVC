@@ -1,0 +1,44 @@
+﻿@model HomeVM
+
+<section class="our-product section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="title">Our Product</h2>
+                    <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="product-carousel-4 mbn-50 slick-row-15 slick-arrow-style">
+                    @foreach (var product in Model.Products.Datas)
+                    {
+                        <!-- product single item start -->
+                        <div class="product-item mb-50">
+                            <div class="product-thumb">
+                                <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">
+                                    <img src="~/assets/img/product/@product.MainImage" alt="">
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h5 class="product-name">
+                                    <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">@product.Name</a>
+                                </h5>
+                                <div class="price-box">
+                                    <span class="price-regular">$@product.Price</span>
+                                    <span class="price-old"><del>$@product.DiscountPrice</del></span>
+                                </div>
+                                <div class="product-action-link">
+                                    <a asp-controller="Basket" asp-action="AddToBasket" asp-route-id="@product.Id" class="addbasket"><i class="ion-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product single item start -->
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

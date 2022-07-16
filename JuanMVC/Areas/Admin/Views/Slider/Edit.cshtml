@@ -1,0 +1,38 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Edit</h1>
+
+<h4>Slider</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <form method="post">
+              <div class="mb-3">
+                <label asp-for="MainTitle" class="form-label"></label>
+                <input class="form-control" asp-for="MainTitle">
+                <span class="text text-danger" asp-validation-for="MainTitle"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="SubTitle" class="form-label"></label>
+                <input class="form-control" asp-for="SubTitle">
+                <span class="text text-danger" asp-validation-for="SubTitle"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Image" class="form-label"></label>
+                <input class="form-control" asp-for="Image">
+                <span class="text text-danger" asp-validation-for="Image"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-area="Admin" asp-controller="Slider" asp-action="Index" class="btn btn-primary">Go Back</a>
+        </form>
+    </div>
+</div>
+
+@section Script{
+
+<partial name="_ValidationPartial">
+    
+}

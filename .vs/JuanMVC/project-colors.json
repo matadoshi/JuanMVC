@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4f6b8450-ed66-41ff-8359-d3e27cdc0063": {
+      "ProjectGuid": "4f6b8450-ed66-41ff-8359-d3e27cdc0063",
+      "DisplayName": "JuanMVC",
+      "ColorIndex": 0
+    },
+    "9120a17b-0d67-440b-a570-f570517edb77": {
+      "ProjectGuid": "9120a17b-0d67-440b-a570-f570517edb77",
+      "DisplayName": "DomainModels",
+      "ColorIndex": 1
+    },
+    "68d902c5-cb19-416c-8e9a-949a2e01bb78": {
+      "ProjectGuid": "68d902c5-cb19-416c-8e9a-949a2e01bb78",
+      "DisplayName": "Repository",
+      "ColorIndex": 2
+    },
+    "2c9bfe0b-9a50-44d0-a4dd-fb33bea3cfda": {
+      "ProjectGuid": "2c9bfe0b-9a50-44d0-a4dd-fb33bea3cfda",
+      "DisplayName": "Service",
+      "ColorIndex": 3
+    },
+    "233aea25-c4cb-44b6-b2cd-891692b6caa1": {
+      "ProjectGuid": "233aea25-c4cb-44b6-b2cd-891692b6caa1",
+      "DisplayName": "Authentication",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,0 +1,37 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+}
+<!-- Login Content Start -->
+<div class="col-lg-6">
+    <div class="login-reg-form-wrap">
+        <h2>Sign In</h2>
+        <form action="#" method="post">
+            <div class="single-input-item">
+                <input asp-for="Email" placeholder="Enter your email" />
+                <span class="text text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="single-input-item">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" placeholder="Enter your Password" />
+                <span class="text text-danger" asp-validation-for="Password"></span>
+            </div>
+            <div class="single-input-item">
+                <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
+                    <div class="remember-meta">
+                        <div class="custom-control custom-checkbox">
+                            <input asp-for="RemindMe" class="custom-control-input">
+                            <label asp-for="RemindMe" class="custom-control-label">Remember Me</label>
+                            <span class="text text-danger" asp-validation-for="RemindMe"></span>
+                        </div>
+                    </div>
+                    <a asp-controller="Account" asp-action="ForgetPassword" class="forget-pwd">Forget Password?</a>
+                </div>
+            </div>
+            <div class="single-input-item">
+                <button type="submit" class="btn">Login</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Login Content End -->

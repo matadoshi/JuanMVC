@@ -1,0 +1,67 @@
+﻿@model List<BasketVM> 
+    
+
+@{ 
+    var totalPrice = Model.Sum(m => m.Count * m.Price);
+}
+    <!-- offcanvas mini cart start -->
+<div class="offcanvas-minicart-wrapper">
+    <div class="minicart-inner">
+        <div class="offcanvas-overlay"></div>
+        <div class="minicart-inner-content">
+            <div class="minicart-close">
+                <i class="ion-android-close"></i>
+            </div>
+            <div class="minicart-content-box">
+                <div class="minicart-item-wrapper">
+                    <ul>
+                        @foreach (var item in Model)
+                        {
+                            <li class="minicart-item">
+                                <div class="minicart-thumb">
+                                    <a sp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId">
+                                        <img src="~/assets/img/cart/@item.Image" alt="product">
+                                    </a>
+                                </div>
+                                <div class="minicart-content">
+                                    <h3 class="product-name">
+                                        <a asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId">@item.Name</a>
+                                    </h3>
+                                    <p>
+                                        <span class="cart-quantity">@item.Count<strong>&times;</strong></span>
+                                        <span class="cart-price">$@item.Price</span>
+                                    </p>
+                                </div>
+                                <a asp-controller="basket" asp-action="deletefrombasket" asp-route-id="@item.ProductId" class="deletebasket" class="minicart-remove"><i class="ion-android-close"></i></a>
+                            </li>
+
+                        }
+                    </ul>
+                </div>
+
+                <div class="minicart-pricing-box">
+                    <ul>
+                        <li>
+                            <span>sub-total</span>
+                            <span><strong>$@totalPrice</strong></span>
+                        </li>
+                        <li>
+                            <span>Eco Tax (-2.00)</span>
+                            <span><strong>$10.00</strong></span>
+                        </li>
+                        <li class="total">
+                            <span>total</span>
+                            <span><strong>$@totalPrice</strong></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="minicart-button">
+                    <a asp-controller="Basket" asp-action="Index"><i class="fa fa-shopping-cart"></i> view cart</a>
+                    <a href="~/cart.html"><i class="fa fa-share"></i> checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- offcanvas mini cart end -->
