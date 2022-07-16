@@ -32,7 +32,7 @@
                                         <span class="cart-price">$@item.Price</span>
                                     </p>
                                 </div>
-                                <a asp-controller="basket" asp-action="deletefrombasket" asp-route-id="@item.ProductId" class="deletebasket" class="minicart-remove"><i class="ion-android-close"></i></a>
+                                <a asp-controller="Basket" asp-action="DeleteFromBasket" asp-route-id="@item.ProductId" class="deletebasket" class="minicart-remove"><i class="ion-android-close"></i></a>
                             </li>
 
                         }
