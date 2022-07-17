@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
 using DomainModels.Models;
 using JuanMVC.Areas.Admin.ViewModels;
+using JuanMVC.Extensions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Abstraction;
@@ -12,23 +16,26 @@ using System.Threading.Tasks;
 namespace JuanMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public class ProductController : Controller
     {
-        public readonly IRepository<Product> _repository;
-        public readonly IRepository<ProductCategory> _categoryRepository;
-        public readonly IRepository<Brand> _brandRepository;
-        public readonly IMapper _mapper;
-
+        private readonly IRepository<Product> _repository;
+        private readonly IRepository<ProductCategory> _categoryRepository;
+        private readonly IRepository<Brand> _brandRepository;
+        private readonly IMapper _mapper;
+        private readonly IWebHostEnvironment _env;
         public ProductController(IRepository<Product> repository,
                                     IMapper mapper,
                                     IRepository<ProductCategory> categoryRepository,
-                                    IRepository<Brand> brandRepository
+                                    IRepository<Brand> brandRepository,
+                                    IWebHostEnvironment env
                                     )
         {
             _repository = repository;
             _mapper = mapper;
             _brandRepository = brandRepository;
             _categoryRepository = categoryRepository;
+            _env = env;
         }
         public async Task<IActionResult> Index()
         {
@@ -57,7 +64,91 @@ namespace JuanMVC.Areas.Admin.Controllers
             if (!ModelState.IsValid) return BadRequest();
             var result = await _repository.AddAsync(product);
             if (!result) return BadRequest("Something bad happenes");
+            if (product.MainFile != null)
+            {
+                if (product.MainFile.CheckFileContentType("image/jpeg"))
+                {
+                    ModelState.AddModelError("MainFile", "Please Select Correct Image Type. Must Be .jpg or .jpeg");
+                    return View();
+                }
+
+                if (product.MainFile.CheckFileSize(50))
+                {
+                    ModelState.AddModelError("MainFile", "Please Select Correct Image Size. Must Be Max 50kb");
+                    return View();
+                }
+
+                product.MainImage = await product.MainFile.CreateFileAsync(_env, "assets", "img", "product");
+            }
+            else
+            {
+                ModelState.AddModelError("MainFile", "Please Select Main Image");
+                return View();
+            }
+
+            if (product.SecondFile != null)
+            {
+                if (product.SecondFile.CheckFileContentType("image/jpeg"))
+                {
+                    ModelState.AddModelError("SecondFile", "Please Select Correct Image Type. Must Be .jpg or .jpeg");
+                    return View();
+                }
+
+                if (product.SecondFile.CheckFileSize(50))
+                {
+                    ModelState.AddModelError("SecondFile", "Please Select Correct Image Size. Must Be Max 50kb");
+                    return View();
+                }
+
+                product.SecondImage = await product.SecondFile.CreateFileAsync(_env, "assets", "img", "product");
+            }
+            else
+            {
+                ModelState.AddModelError("SecondFile", "Please Select Second Image");
+                return View();
+            }
+
+            if (product.Files != null && product.Files.Count > 0)
+            {
+                if (product.Files.Count > 5)
+                {
+                    ModelState.AddModelError("Files", "Can Select Maximum 5 Image");
+                    return View();
+                }
+
+                List<ProductImage> productImages = new List<ProductImage>();
+
+                foreach (IFormFile file in product.Files)
+                {
+                    if (file.CheckFileContentType("image/jpeg"))
+                    {
+                        ModelState.AddModelError("Files", "Please Select Correct Image Type. Must Be .jpg or .jpeg");
+                        return View();
+                    }
+
+                    if (file.CheckFileSize(300))
+                    {
+                        ModelState.AddModelError("Files", "Please Select Correct Image Size. Must Be Max 50kb");
+                        return View();
+                    }
+
+                    ProductImage productImage = new ProductImage
+                    {
+                        Image = await file.CreateFileAsync(_env, "assets", "img", "product")
+                    };
+
+                    productImages.Add(productImage);
+                }
+
+                product.ProductImages = productImages;
+            }
+            else
+            {
+                ModelState.AddModelError("Files", "Please Select Files");
+                return View();
+            }
             return RedirectToAction("Index");
+
         }
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
@@ -67,8 +158,13 @@ namespace JuanMVC.Areas.Admin.Controllers
             var product = await _repository.DetailsById(id);
 
             if (product == null) return NotFound();
-
-            return View(product);
+            ProductPostViewModel model = new ProductPostViewModel
+            {
+                Categories = await _categoryRepository.GetAllAsync(),
+                Brands = await _brandRepository.GetAllAsync(),
+                Product = product
+            };
+            return View(model);
         }
         [HttpPost]
         public async Task<IActionResult> Edit(int? id, Product product)

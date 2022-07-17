@@ -26,8 +26,15 @@ using DomainModels.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Areas\Admin\Views\_ViewImports.cshtml"
+using JuanMVC.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"071eee5ec5c6504028b24981b110aecc7482b0c6", @"/Areas/Admin/Views/Shared/_ValidationPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8db77ee7f7491d2e0ab938ea2c8f34f8428b48c1", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"58b485b677b7f247fcd10d911af94b5cda287e9b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Shared__ValidationPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

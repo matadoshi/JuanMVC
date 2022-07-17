@@ -13,70 +13,84 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using JuanMVC;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models.Common;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 5 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using JuanMVC.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 6 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.Interfaces;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 7 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.ViewModels.Basket;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 8 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.BaseModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 9 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models.BlogModel;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 10 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+using DomainModels.Models.OrderModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.Utilities;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+using JuanMVC.ViewModels.AccountVM;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca44a812ddc715df1bb07b98b8b47b0cd9130d99", @"/Views/Shared/_OurProductPartialView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d2bcbc9b991740be8c2c358639e9614ccd97c32", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a64bbdc0f5f7569bf8e04bb93231046308c29a6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__OurProductPartialView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeVM>
     #nullable disable
@@ -136,9 +150,9 @@ using Service.Utilities;
 #line hidden
 #nullable disable
             WriteLiteral("                        <!-- product single item start -->\r\n                        <div class=\"product-item mb-50\">\r\n                            <div class=\"product-thumb\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d997811", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d998232", async() => {
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca44a812ddc715df1bb07b98b8b47b0cd9130d998102", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ca44a812ddc715df1bb07b98b8b47b0cd9130d998523", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -193,7 +207,7 @@ AddHtmlAttributeValue("", 1016, product.MainImage, 1016, 18, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </div>\r\n                            <div class=\"product-content\">\r\n                                <h5 class=\"product-name\">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d9912184", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d9912605", async() => {
 #nullable restore
 #line 27 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\Shared\_OurProductPartialView.cshtml"
                                                                                                            Write(product.Name);
@@ -248,7 +262,7 @@ AddHtmlAttributeValue("", 1016, product.MainImage, 1016, 18, false);
 #line hidden
 #nullable disable
             WriteLiteral("</del></span>\r\n                                </div>\r\n                                <div class=\"product-action-link\">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d9915925", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca44a812ddc715df1bb07b98b8b47b0cd9130d9916346", async() => {
                 WriteLiteral("<i class=\"ion-bag\"></i>");
             }
             );

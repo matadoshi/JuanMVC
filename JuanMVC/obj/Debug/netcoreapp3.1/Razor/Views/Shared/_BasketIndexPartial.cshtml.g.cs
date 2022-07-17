@@ -13,70 +13,84 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using JuanMVC;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models.Common;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 5 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using JuanMVC.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 6 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.Interfaces;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 7 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.ViewModels.Basket;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 8 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.BaseModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 9 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using DomainModels.Models.BlogModel;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+#line 10 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+using DomainModels.Models.OrderModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
 using Service.Utilities;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Views\_ViewImports.cshtml"
+using JuanMVC.ViewModels.AccountVM;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc2e94c6c7c4f138f4b80748810d195e97aa849c", @"/Views/Shared/_BasketIndexPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d2bcbc9b991740be8c2c358639e9614ccd97c32", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a64bbdc0f5f7569bf8e04bb93231046308c29a6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__BasketIndexPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<BasketVM>>
     #nullable disable
@@ -131,7 +145,7 @@ using Service.Utilities;
                             <h1 class=""breadcrumb-title"">Cart</h1>
                             <ul class=""breadcrumb"">
                                 <li class=""breadcrumb-item"">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc2e94c6c7c4f138f4b80748810d195e97aa849c7019", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc2e94c6c7c4f138f4b80748810d195e97aa849c7440", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -234,7 +248,7 @@ WriteAttributeValue("", 2420, product.ProductId, 2420, 18, false);
 #line hidden
 #nullable disable
             WriteLiteral("</span></td>\r\n                                            <td class=\"pro-remove\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc2e94c6c7c4f138f4b80748810d195e97aa849c12911", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc2e94c6c7c4f138f4b80748810d195e97aa849c13332", async() => {
                 WriteLiteral("<i class=\"fa fa-trash-o\"></i>");
             }
             );

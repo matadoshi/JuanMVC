@@ -17,6 +17,8 @@ namespace Service
             services.AddScoped<ILayoutService, LayoutService>();
             services.AddScoped<ISettingService, SettingService>();
             services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IOrderService, OrderService>();
             //services.AddScoped<IBasketService, BasketService>();
             return services;
         }

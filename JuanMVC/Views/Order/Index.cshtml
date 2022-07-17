@@ -1,0 +1,83 @@
+﻿@model OrderVM
+<!-- main wrapper start -->
+<main>
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area bg-img" data-bg="assets/img/banner/breadcrumb-banner.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap text-center">
+                        <nav aria-label="breadcrumb">
+                            <h1 class="breadcrumb-title">Checkout</h1>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+    <!-- checkout main wrapper start -->
+    <div class="checkout-page-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Checkout Billing Details -->
+                <div class="col-lg-6">
+                    <div class="checkout-billing-details-wrap">
+                        <h4 class="checkout-title">Billing Details</h4>
+                        <div class="billing-form-wrap">
+                            @await Html.PartialAsync("_OrderCheckOutPartial",Model.Order)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary Details -->
+                <div class="col-lg-6">
+                    <div class="order-summary-details">
+                        <h4 class="checkout-title">Your Order Summary</h4>
+                        <div class="order-summary-content">
+                            <!-- Order Summary Table -->
+                            <div class="order-summary-table table-responsive text-center">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Products</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @foreach (BasketVM basketVM in Model.BasketVMs)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <a href="product-details.html">@basketVM.Name <strong> @basketVM.Count</strong></a>
+                                                </td>
+                                                <td>$@(basketVM.Count * basketVM.Price)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td>Sub Total</td>
+                                            <td><strong>$400</strong></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Total Amount</td>
+                                            <td><strong>$@(Model.BasketVMs.Sum(b=>b.Count) + Model.BasketVMs.Sum(b=>b.Count * b.Price))</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- main wrapper end -->

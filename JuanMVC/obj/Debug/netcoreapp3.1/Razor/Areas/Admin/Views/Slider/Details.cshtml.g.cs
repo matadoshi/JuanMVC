@@ -26,8 +26,15 @@ using DomainModels.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Areas\Admin\Views\_ViewImports.cshtml"
+using JuanMVC.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"95a93e680500a2841fbcc05413db7909e872ca25", @"/Areas/Admin/Views/Slider/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8db77ee7f7491d2e0ab938ea2c8f34f8428b48c1", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"58b485b677b7f247fcd10d911af94b5cda287e9b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Slider_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DomainModels.Models.Slider>
     #nullable disable
@@ -127,7 +134,7 @@ using DomainModels.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "95a93e680500a2841fbcc05413db7909e872ca257928", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "95a93e680500a2841fbcc05413db7909e872ca258138", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -151,7 +158,7 @@ AddHtmlAttributeValue("", 978, Html.DisplayFor(model => model.Image), 978, 38, f
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95a93e680500a2841fbcc05413db7909e872ca259603", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95a93e680500a2841fbcc05413db7909e872ca259813", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -183,7 +190,7 @@ AddHtmlAttributeValue("", 978, Html.DisplayFor(model => model.Image), 978, 38, f
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95a93e680500a2841fbcc05413db7909e872ca2511877", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95a93e680500a2841fbcc05413db7909e872ca2512087", async() => {
                 WriteLiteral("Back to List");
             }
             );

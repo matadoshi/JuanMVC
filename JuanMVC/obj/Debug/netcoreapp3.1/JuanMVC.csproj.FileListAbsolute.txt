@@ -378,3 +378,11 @@ C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\net
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BasketIndexPartial.cshtml.g.cs
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BasketPartial.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\SendVerifyEmail.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\Profile.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OrderCheckOutPartial.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AccountProfilePartial.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs

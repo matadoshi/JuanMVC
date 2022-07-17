@@ -1,4 +1,5 @@
 ﻿using DomainModels.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Abstraction;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 namespace JuanMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public class CategoryController : Controller
     {
         private readonly IRepository<ProductCategory> _repository;

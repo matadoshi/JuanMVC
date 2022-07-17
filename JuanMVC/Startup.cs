@@ -1,9 +1,6 @@
 using DomainModels;
 using DomainModels.Models.Common;
 using JuanMVC.Areas.ProfileMapper;
-using JuanMVC.Tools.EmailHandler.Abstraction;
-using JuanMVC.Tools.EmailHandler.Configuration;
-using JuanMVC.Tools.EmailHandler.Implementation;
 using JuanMVC.ViewModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -55,15 +52,12 @@ namespace JuanMVC
                 options.Password.RequiredLength = 8;
                 options.Password.RequireLowercase = true;
                 options.Password.RequireUppercase = true;
-
                 options.Lockout.AllowedForNewUsers = true;
                 options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
 
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
-            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
             services.AddScoped(typeof(IRepository<>), typeof(EfCoreRepository<>));
-            services.AddScoped(typeof(IEmailService),typeof(SMTPMailService));
             //services.AddCors(opt =>
             //{
             //    opt.AddPolicy("CorsPolicy", policy =>

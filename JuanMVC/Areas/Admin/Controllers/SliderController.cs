@@ -1,4 +1,5 @@
 ﻿using DomainModels.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.DAL;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 namespace JuanMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public class SliderController : Controller
     {
         public readonly IRepository<Slider> _repository;

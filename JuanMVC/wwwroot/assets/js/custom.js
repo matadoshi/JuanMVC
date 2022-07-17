@@ -14,4 +14,4 @@
             .then(res => res.text())
             .then(data => { $('.header-cart').html(data) });
     })
-}
+})

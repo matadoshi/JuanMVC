@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using DomainModels.Models.OrderModel;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,5 +20,7 @@ namespace DomainModels.Models.Common
         public bool IsActivated { get; set; }
         [NotMapped]
         public string Role { get; set; }
+        public IEnumerable<Order> Orders { get; set; }
+
     }
 }

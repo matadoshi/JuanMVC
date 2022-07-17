@@ -26,8 +26,15 @@ using DomainModels.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\JuanMVC\Areas\Admin\Views\_ViewImports.cshtml"
+using JuanMVC.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"17c995d755ee4a37259436a4fa7201ae4f8680cc", @"/Areas/Admin/Views/Brand/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8db77ee7f7491d2e0ab938ea2c8f34f8428b48c1", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"58b485b677b7f247fcd10d911af94b5cda287e9b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Brand_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<DomainModels.Models.Brand>>
     #nullable disable
@@ -74,7 +81,7 @@ using DomainModels.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\n<h1>Index</h1>\n\n<p>\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc6190", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc6400", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -118,7 +125,7 @@ using DomainModels.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\n                    </td>\n                    <td>\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc8604", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc8814", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -150,7 +157,7 @@ using DomainModels.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc10910", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc11120", async() => {
                 WriteLiteral("Details");
             }
             );
@@ -182,7 +189,7 @@ using DomainModels.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc13221", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17c995d755ee4a37259436a4fa7201ae4f8680cc13431", async() => {
                 WriteLiteral("Delete");
             }
             );

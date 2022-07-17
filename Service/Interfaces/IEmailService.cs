@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace JuanMVC.Tools.EmailHandler.Abstraction
+namespace Service.Interfaces
 {
     public interface IEmailService
     {
-        Task SendEmailAsync(MailRequest mailRequest);
+        Task SendEmailAsync(string mail,string username,string html,string content);
     }
 }

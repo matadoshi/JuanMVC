@@ -18,13 +18,12 @@ namespace JuanMVC.Controllers
 
         public BasketController(IProductService productService)
         {
-            //_basketService = basketService;
             _productService = productService;
         }
 
-        public async  Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
-            string basket = Request.Cookies["basket"];
+            string basket = Request.Cookies["Basket"];
 
             List<BasketVM> basketVMs = null;
 
@@ -142,6 +141,7 @@ namespace JuanMVC.Controllers
                 basketVM.Price = product.DiscountPrice > 0 ? product.DiscountPrice : product.Price;
                 basketVM.Name = product.Name;
             }
+
             return basketVMs;
         }
     }

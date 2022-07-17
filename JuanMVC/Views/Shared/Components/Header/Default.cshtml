@@ -4,7 +4,6 @@
 
 @{
     List<BasketVM> basketVMs = await LayoutService.GetBasketAsync();
-    AppUser appUser = await LayoutService.GetUserAsync();
 }
 <!-- Start Header Area -->
 <header class="header-area">
@@ -27,7 +26,7 @@
                                     <i class="fa fa-angle-down"></i>
                                     <ul class="dropdown-list curreny-list">
                                         <li><a href="~/#">$ usd</a></li>
-                                        <li><a href="~/#"> € EURO</a></li>
+                                        <li><a href="~/#">€ EURO</a></li>
                                     </ul>
                                 </li>
                                 <li class="language">
@@ -69,7 +68,7 @@
                                         <li><a asp-controller="Contact" asp-action="Index">Contact us</a></li>
                                         <li><a asp-controller="Product" asp-action="Index">Shop</a></li>
                                         <li><a asp-controller="Blog" asp-action="Index">Blog</a></li>
-                                        <li><a asp-controller="Basket" asp-action="Card">Card</a></li>
+                                        <li><a asp-controller="Basket" asp-action="Index">Basket</a></li>
                                     </ul>
                                 </nav>
                                 <!-- main menu navbar end -->
@@ -94,7 +93,7 @@
                                         <ul class="dropdown-list">
                                             @if (User.Identity.IsAuthenticated)
                                             {
-                                                <li><a>@appUser.Name @appUser.Surname</a></li>
+                                                <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
                                                 <li><a asp-controller="Account" asp-action="Logout">Sign Out</a></li>
                                             }
                                             else

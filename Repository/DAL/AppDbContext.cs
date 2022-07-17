@@ -1,6 +1,7 @@
 ﻿using DomainModels.Models;
 using DomainModels.Models.BlogModel;
 using DomainModels.Models.Common;
+using DomainModels.Models.OrderModel;
 using DomainModels.Models.ProductModel;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -34,5 +35,10 @@ namespace Repository.DAL
         public DbSet<BlogTag> BlogTags { get; set; }
         //Setting Model
         public DbSet<Setting> Settings { get; set; }
+        //Order Model
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        //Comment Model
+        public DbSet<Comment> Comments { get; set; }
     }
 }
