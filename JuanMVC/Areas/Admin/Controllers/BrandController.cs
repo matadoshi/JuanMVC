@@ -15,9 +15,11 @@ namespace JuanMVC.Areas.Admin.Controllers
     public class BrandController : Controller
     {
         private readonly IRepository<Brand> _repository;
-
-        public BrandController(IRepository<Brand> repository)
+        private readonly IBrandRepository _brandRepository;
+        public BrandController(IRepository<Brand> repository,
+                                IBrandRepository brandRepository)
         {
+            _brandRepository = brandRepository;
             _repository = repository;
         }
 
@@ -45,11 +47,11 @@ namespace JuanMVC.Areas.Admin.Controllers
                 return View();
             }
 
-            //if (await _repository.AnyAsync(b => b.Name.ToLower() == brand.Name.ToLower().Trim()))
-            //{
-            //    ModelState.AddModelError("Name", $"That {brand.Name} Already Exists");
-            //    return View();
-            //}
+            if (await _brandRepository.ExistsBrand(brand.Name))
+            {
+                ModelState.AddModelError("Name", $"That {brand.Name} Already Exists");
+                return View();
+            }
 
             brand.Name = brand.Name.Trim();
             brand.CreatedAt = DateTime.UtcNow.AddHours(4);

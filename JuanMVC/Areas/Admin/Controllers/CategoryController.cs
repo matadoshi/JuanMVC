@@ -15,10 +15,12 @@ namespace JuanMVC.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IRepository<ProductCategory> _repository;
-
-        public CategoryController(IRepository<ProductCategory> repository)
+        private readonly ICategoryRepository _categoryRepository;
+        public CategoryController(IRepository<ProductCategory> repository,
+                                    ICategoryRepository categoryRepository)
         {
             _repository = repository;
+            _categoryRepository = categoryRepository;
         }
         public async Task<IActionResult> Index()
         {
@@ -44,11 +46,11 @@ namespace JuanMVC.Areas.Admin.Controllers
                 return View();
             }
 
-            //if (await _repository.AnyAsync(b => b.Name.ToLower() == brand.Name.ToLower().Trim()))
-            //{
-            //    ModelState.AddModelError("Name", $"That {brand.Name} Already Exists");
-            //    return View();
-            //}
+            if (await _categoryRepository.ExistsCategory(productCategory.Name))
+            {
+                ModelState.AddModelError("Name", $"That {productCategory.Name} Already Exists");
+                return View();
+            }
 
             productCategory.Name = productCategory.Name.Trim();
             productCategory.CreatedAt = DateTime.UtcNow.AddHours(4);
