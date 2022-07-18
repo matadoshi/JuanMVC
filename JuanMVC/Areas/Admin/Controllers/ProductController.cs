@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository.Abstraction;
+using Service.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,9 +38,12 @@ namespace JuanMVC.Areas.Admin.Controllers
             _categoryRepository = categoryRepository;
             _env = env;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int take = 3, int page = 1)
         {
-            return View(await _repository.GetAllAsync());
+            ViewBag.Take = take;
+            var products = await _repository.GetAllAsync();
+            Pagination<Product> pagination = new Pagination<Product>(products, page, take);
+            return View(pagination);
         }
         public async Task<IActionResult> Details(int? id)
         {

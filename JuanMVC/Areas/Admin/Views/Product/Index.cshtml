@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DomainModels.Models.Product>
+﻿@model Pagination<Product>
 
 @{ ViewData["Title"] = "Index"; }
 
@@ -11,19 +11,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                Name
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                Description
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsDeleted)
+                IsDeleted
             </th>
             
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.Datas)
         {
             if(!item.IsDeleted)
             {
@@ -47,4 +47,20 @@
         }
     </tbody>
 </table>
+<div class="paginatoin-area text-center mt-45">
+    <ul class="pagination justify-content-center" style="display: flex;">
+        <li class="page-item">
+            <a class="page-link @(Model.HasPrevious ? "": "disabled")" asp-action="Index" asp-route-take="@ViewBag.Take" asp-route-page="@(Model.CurrentPage-1)">Previous</a>
+        </li>
+        @for (int i = 1; i <= Model.TotalPage; i++)
+        {
+            <li class="page-item">
+                <a class="page-link @(i == Model.CurrentPage ? "disabled" : "")" asp-action="Index" asp-route-take="@ViewBag.Take" asp-route-page="@i">@i</a>
+            </li>
+}
+        <li class="page-item">
+            <a class="page-link @(Model.HasNext ? "": "disabled")" asp-action="Index" asp-route-take="@ViewBag.Take" asp-route-page="@(Model.CurrentPage+1)">Next</a>
+        </li>
+    </ul>
+</div>
 

@@ -23,7 +23,7 @@ namespace JuanMVC.Controllers
         public async Task<IActionResult> Index(int take = 3, int page = 1)
         {
             ViewBag.Take = take;
-            List<Product> products = await _productService.GetProducts();
+            IList<Product> products = await _productService.GetProducts();
             Pagination<Product> pagination = new Pagination<Product>(products, page,take);
             return View(pagination);
         }
