@@ -28,3 +28,18 @@ C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\net
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\Service\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\aliye\Source\Repos\JuanMVC\Service\obj\Debug\netcoreapp3.1\Service.pdb

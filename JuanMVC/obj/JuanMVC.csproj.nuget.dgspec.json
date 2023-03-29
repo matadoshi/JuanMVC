@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\JuanMVC\\JuanMVC.csproj": {}
+    "C:\\Users\\aliye\\source\\repos\\JuanMVC\\JuanMVC\\JuanMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj": {
+    "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj",
+        "projectUniqueName": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj",
         "projectName": "DomainModels",
-        "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj",
-        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\obj\\",
+        "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj",
+        "packagesPath": "C:\\Users\\aliye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliye\\Source\\Repos\\JuanMVC\\DomainModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aliye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,25 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\JuanMVC\\JuanMVC.csproj": {
+    "C:\\Users\\aliye\\source\\repos\\JuanMVC\\JuanMVC\\JuanMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\JuanMVC\\JuanMVC.csproj",
+        "projectUniqueName": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\JuanMVC\\JuanMVC.csproj",
         "projectName": "JuanMVC",
-        "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\JuanMVC\\JuanMVC.csproj",
-        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\JuanMVC\\obj\\",
+        "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\JuanMVC\\JuanMVC.csproj",
+        "packagesPath": "C:\\Users\\aliye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\JuanMVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aliye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,11 +97,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj"
+              "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj"
               },
-              "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\Service.csproj"
+              "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\Service.csproj"
               }
             }
           }
@@ -170,16 +163,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.24, 3.1.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -188,25 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj": {
+    "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\aliye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aliye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,8 +204,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj": {
-                "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj"
+              "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj"
               }
             }
           }
@@ -275,7 +259,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -284,25 +269,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\Service.csproj": {
+    "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Service\\obj\\",
+        "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\aliye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aliye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -316,11 +297,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj": {
-                "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\DomainModels\\DomainModels.csproj"
+              "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\DomainModels\\DomainModels.csproj"
               },
-              "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\Back-End Project\\JuanMVC\\Repository\\Repository.csproj"
+              "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\aliye\\source\\repos\\JuanMVC\\Repository\\Repository.csproj"
               }
             }
           }
@@ -350,7 +331,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -359,7 +341,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

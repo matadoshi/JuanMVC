@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DomainModels",
+    "\\DomainModels\\Models",
+    "\\JuanMVC",
+    "\\JuanMVC\\Controllers",
+    "\\Repository",
+    "\\Service",
+    "\\Service\\BaseModels",
+    "\\Service\\Interfaces"
+  ],
+  "SelectedNode": "\\Repository\\Repository",
+  "PreviewInSolutionExplorer": false
+}

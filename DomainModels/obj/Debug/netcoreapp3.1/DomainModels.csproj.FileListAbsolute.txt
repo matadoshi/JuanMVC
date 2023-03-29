@@ -18,3 +18,13 @@ C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\DomainModels\obj\Debu
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
 C:\Users\Onur\OneDrive\Masaüstü\Back-End Project\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.deps.json
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.AssemblyReference.cache
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfoInputs.cache
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfo.cs
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\aliye\Source\Repos\JuanMVC\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb
